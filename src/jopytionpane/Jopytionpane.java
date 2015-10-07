@@ -21,7 +21,9 @@ public class Jopytionpane {
         
       String resposta =JOptionPane.showInputDialog("base");
       base= Float.parseFloat(resposta);
-      JOptionPane.showMessageDialog(null,"base="+base);
+      String billy =JOptionPane.showInputDialog("altura");
+      altura= Float.parseFloat(billy);
+      JOptionPane.showMessageDialog(null,"base="+base*altura);
     }
     
 }
